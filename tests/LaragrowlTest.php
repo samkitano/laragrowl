@@ -1,6 +1,5 @@
 <?php
 
-//use Kitano\Laragrowl;
 use Kitano\Laragrowl\LaragrowlNotifier as LN;
 use Mockery as m;
 
@@ -17,8 +16,6 @@ class LaragrowlTest extends PHPUnit_Framework_TestCase
      */
     public function setUp()
     {
-        //parent::setUp();
-
         $this->session   = m::mock('Kitano\Laragrowl\SessionStore');
         $this->laragrowl = new LN($this->session);
     }

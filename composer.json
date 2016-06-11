@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Kitano\\Laragrowl\\": "src/"
+            "Kitano\\Laragrowl": "src/"
         }
     },
     "require": {
