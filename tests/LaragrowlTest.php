@@ -4,7 +4,7 @@ use Kitano\Laragrowl;
 use Kitano\Laragrowl\LaragrowlNotifier;
 use Mockery as m;
 
-class LaragrowlTest extends TestCase
+class LaragrowlTest extends PHPUnit_Framework_TestCase
 {
 
     protected $session;
