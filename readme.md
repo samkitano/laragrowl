@@ -1,5 +1,10 @@
 # Laravel Flash Messages with jGrowl
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/samkitano/laragrowl.svg?style=flat-square)](https://packagist.org/packages/samkitano/laragrowl)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![Build Status](https://img.shields.io/travis/samkitano/laragrowl/master.svg?style=flat-square)](https://travis-ci.org/samkitano/laragrowl)
+[![Total Downloads](https://img.shields.io/packagist/dt/samkitano/laragrowl.svg?style=flat-square)](https://packagist.org/packages/samkitano/laragrowl)
+
 All the awesomeness and functionality of [jGrowl](https://github.com/stanlemon/jGrowl) made simple, for your Laravel project.
 
 **jGrowl** is "an unobtrusive notification system for web applications", by [Stan Lemon](https://github.com/stanlemon). If you are not acquainted with this marvelous notification system, I encourage you to [pay a visit](https://github.com/stanlemon/jGrowl) and read the documentation.
