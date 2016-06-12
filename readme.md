@@ -58,7 +58,7 @@ Furthermore, with Laravel's awesome ability to use Aliases for the facades, you 
 </html>
 ```
 
-**b)** Using a CDN*:
+**b)** Using a CDN:
 
 ```php
 <!DOCTYPE html>
@@ -79,7 +79,7 @@ Furthermore, with Laravel's awesome ability to use Aliases for the facades, you 
 </html>
 ```
 
-*If you decide to **download**, or to use a **CDN**, you'll have to provide your own styling for the notifications. A basic theme is included in this package in `src\assets\css\jquery.jgrowl.theme.css` Feel free to use it "as is", or as a boilerplate to suit your own needs.
+If you decide to **download**, or to use a **CDN**, you'll have to provide your own styling for the notifications. A basic theme is included in this package in `src\assets\css\jquery.jgrowl.theme.css` Feel free to use it "as is", or as a boilerplate to suit your own needs.
 
 **c)** Publish included **jGrowl** version:
 
