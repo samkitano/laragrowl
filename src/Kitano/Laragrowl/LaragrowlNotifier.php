@@ -18,7 +18,7 @@ class LaragrowlNotifier
      *
      * @param SessionStore $session
      */
-    function __construct(SessionStore $session)
+    public function __construct(SessionStore $session)
     {
         $this->session = $session;
     }
@@ -112,9 +112,8 @@ class LaragrowlNotifier
 
         array_push($this->messages, $jgrowl);
 
-        $this->session->write( 'laragrowl_messages', $this->messages );
+        $this->session->write('laragrowl_messages', $this->messages);
 
         return $this;
     }
-
 }
